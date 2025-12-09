@@ -12,6 +12,7 @@ import ouroPreto from "@/assets/ouro_preto.jpeg";
 import curitiba from "@/assets/curitiba.jpeg";
 import jeriImage from "@/assets/jeri.jpeg";
 import fozImage from "@/assets/foz.jpeg";
+import hacksImage from "@/assets/hacks.jpeg";
 
 export interface Article {
   id: string;
@@ -339,6 +340,50 @@ Aplicando todas as dicas, é possível economizar de 40% a 60% do valor total da
     publishedAt: "2024-11-25T07:00:00Z",
     updatedAt: "2024-12-04T10:00:00Z",
     tags: ["economia", "dicas", "viagem barata", "dezembro", "planejamento"],
+  },
+  {
+    id: "16",
+    slug: "hacks-economizar-viagem-tri-fronteira",
+    title: "Economizar sem perder a vibe: hacks de viagem na tríplice fronteira",
+    excerpt: "Como cruzar Paraguai, Brasil e Argentina no mesmo roteiro gastando pouco e sem abrir mão das melhores experiências.",
+    content: `
+## Por que a tríplice fronteira é um laboratório de economia
+Foz do Iguaçu, Ciudad del Este e Puerto Iguazú formam o combo perfeito para testar hacks: três moedas, três gastronomias e um zilhão de oportunidades de gastar melhor.
+
+### 1) Monte seu “menu 3 países” por menos de R$ 200
+- Café da manhã no Paraguai (chipa + espresso), almoço com buffet brasileiro em Foz e empanadas com malbec na Argentina. Use dinheiro vivo para escapar de taxas extras.
+
+### 2) Transporte que não torra o orçamento
+- Van compartilhada na ida para Ciudad del Este, ônibus urbano para o Parque Nacional em Foz e remis dividido para Puerto Iguazú. Seguro carta verde em dia evita multa cara.
+
+### 3) Compras inteligentes (e leves na alfândega)
+- Eletrônicos e cosméticos no Paraguai até a cota: saiba seu limite e leve lista com preços de referência. Prefira lojas oficiais para não economizar duas vezes: no bolso e na dor de cabeça.
+
+### 4) Passeios gratuitos que parecem pagos
+- Pôr do sol na roda-gigante/Marco das 3 Fronteiras é praticamente um mirante premium. Caminhadas no centro de Foz rendem cafés especiais baratos e Wi-Fi fácil.
+
+### 5) Bagagem essencial para não gastar depois
+- Garrafa dobrável, capa de chuva leve e adaptador universal evitam compras de última hora. Mochila pequena te disciplina a não estourar na volta.
+
+### 6) Câmbio sem drama
+- Use multi-conta digital para sacar pouco em cada país e pagar em moeda local quando compensar. Regra de ouro: conversão > IOF do cartão? Vai de dinheiro; senão, cartão.
+
+### 7) Seguro e documentos em dia
+- RG/passaporte e seguro viagem com cobertura internacional custam menos que qualquer perrengue hospitalar. Tire fotos digitais de tudo.
+    `,
+    category: "Economizar",
+    categoryColor: "budget",
+    imageUrl: hacksImage,
+    imageAlt: "Carro antigo azul carregado de malas em um deserto cor de rosa sob céu azul",
+    readTime: "6 min",
+    views: "21.7K",
+    author: {
+      name: "Felipe Duarte",
+      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Felipe",
+    },
+    publishedAt: "2025-02-05T09:00:00Z",
+    updatedAt: "2025-02-05T09:00:00Z",
+    tags: ["economizar", "tríplice fronteira", "paraguai", "argentina", "foz", "hacks"],
   },
   {
     id: "5",

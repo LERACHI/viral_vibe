@@ -39,7 +39,7 @@ export const Comments = ({ slug, articleTitle }: CommentsProps) => {
         setComments(JSON.parse(saved));
       }
     } catch (err) {
-      console.error("Erro ao carregar comentarios", err);
+      console.error("Erro ao carregar comentários", err);
     }
   }, [slug]);
 
@@ -62,7 +62,7 @@ export const Comments = ({ slug, articleTitle }: CommentsProps) => {
     }
 
     if (trimmedMessage.length < 10) {
-      setError("O comentГЎrio precisa ter pelo menos 10 caracteres.");
+      setError("O comentário precisa ter pelo menos 10 caracteres.");
       return;
     }
 
@@ -82,8 +82,8 @@ export const Comments = ({ slug, articleTitle }: CommentsProps) => {
 
   const subtitle = useMemo(() => {
     if (totalComments === 0) return "Seja o primeiro a comentar.";
-    if (totalComments === 1) return "1 comentГЎrio neste artigo.";
-    return `${totalComments} comentГЎrios neste artigo.`;
+    if (totalComments === 1) return "1 comentário neste artigo.";
+    return `${totalComments} comentários neste artigo.`;
   }, [totalComments]);
 
   return (
@@ -94,7 +94,7 @@ export const Comments = ({ slug, articleTitle }: CommentsProps) => {
             Engajamento
           </p>
           <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground">
-            ComentГЎrios
+            Comentários
           </h2>
           <p className="text-sm text-muted-foreground">{subtitle}</p>
         </div>
@@ -117,17 +117,17 @@ export const Comments = ({ slug, articleTitle }: CommentsProps) => {
             <div className="space-y-2">
               <div className="flex items-center justify-between">
                 <label htmlFor="message" className="text-sm font-medium text-foreground">
-                  ComentГЎrio
+                  Comentário
                 </label>
                 <span className="text-xs text-muted-foreground">
-                  MГ­nimo 10 caracteres
+                  Mínimo 10 caracteres
                 </span>
               </div>
               <Textarea
                 id="message"
                 value={message}
                 onChange={(event) => setMessage(event.target.value)}
-                placeholder="Compartilhe sua opiniГЈo, dicas ou perguntas sobre este artigo."
+                placeholder="Compartilhe sua opinião, dicas ou perguntas sobre este artigo."
                 rows={5}
               />
             </div>
@@ -139,10 +139,10 @@ export const Comments = ({ slug, articleTitle }: CommentsProps) => {
             )}
 
             <Button type="submit" className="w-full md:w-auto">
-              Publicar comentГЎrio
+              Publicar comentário
             </Button>
             <p className="text-xs text-muted-foreground">
-              ComentГЎrios ficam salvos apenas neste navegador. Seja respeitoso e
+              Comentários ficam salvos apenas neste navegador. Seja respeitoso e
               evite compartilhar dados pessoais.
             </p>
           </form>
@@ -150,7 +150,7 @@ export const Comments = ({ slug, articleTitle }: CommentsProps) => {
           <div className="space-y-4">
             {comments.length === 0 ? (
               <div className="border border-dashed border-border rounded-xl p-6 text-center text-muted-foreground">
-                Nenhum comentГЎrio ainda. Que tal iniciar a conversa?
+                Nenhum comentário ainda. Que tal iniciar a conversa?
               </div>
             ) : (
               <div className="space-y-4">
