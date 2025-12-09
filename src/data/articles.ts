@@ -11,6 +11,7 @@ import serraCipo from "@/assets/serra_cipo.jpeg";
 import ouroPreto from "@/assets/ouro_preto.jpeg";
 import curitiba from "@/assets/curitiba.jpeg";
 import jeriImage from "@/assets/jeri.jpeg";
+import fozImage from "@/assets/foz.jpeg";
 
 export interface Article {
   id: string;
@@ -112,6 +113,52 @@ O Nordeste brasileiro é, sem dúvida, o melhor destino para quem quer celebrar 
     publishedAt: "2024-12-01T10:00:00Z",
     updatedAt: "2024-12-05T14:30:00Z",
     tags: ["réveillon", "nordeste", "festas", "ano novo", "viagens"],
+  },
+  {
+    id: "15",
+    slug: "foz-iguacu-um-dia-tres-paises",
+    title: "Foz do Iguaçu em um dia: café no Paraguai, almoço no Brasil e jantar na Argentina",
+    excerpt: "O trio-fronteira mais fotogênico do mundo: amanhecer nas Cataratas, café coado em Ciudad del Este, feijoada em Foz e empanadas com vinho em Puerto Iguazú.",
+    content: `
+## Como atravessar três culturas em 12 horas
+
+Foz do Iguaçu tem um superpoder raro: em um raio de poucos quilômetros você toma café no Paraguai, almoça no Brasil e janta na Argentina sem perder o pôr do sol. A roda-gigante nova crava esse sentimento de parque de diversões gigante no meio da América do Sul.
+
+### Manhã: café e compras rápidas em Ciudad del Este (Paraguai)
+- Cruze a Ponte da Amizade cedo para evitar filas. Um espresso com chipas na rua já muda o sotaque da manhã.
+- Vibe de bazar high-tech: lojas de eletrônicos, perfumaria e tereré gelado no copo.
+
+### Almoço: Brasil em modo feijoada e Cataratas rugindo ao fundo
+- Volte para Foz e pegue a Av. das Cataratas. Feijoada leve ou buffet de parrilla brasileira para segurar a tarde.
+- Parada obrigatória no Parque Nacional: passarela de vapor, arco-íris e selfie com a Garganta do Diabo rugindo atrás.
+
+### Pôr do sol: roda-gigante e rio Iguaçu em tom dourado
+- A roda-gigante (Marco das 3 Fronteiras) vira mirante 360 graus: Paraguai, Brasil e Argentina na mesma foto.
+- Custa pouco tempo e rende a imagem que define a viagem.
+
+### Noite: empanadas e malbec em Puerto Iguazú (Argentina)
+- Cruze a Ponte Tancredo Neves. Em meia hora você está brindando com malbec e empanadas de carne suave.
+- Termine com sorvete de dulce de leche e, se der tempo, uma passada pelo duty free.
+
+## Dicas rápidas para o tri-fronteira
+- Documentos na mão: RG ou passaporte agilizam as aduanas.
+- Planeje transporte: carro com seguro carta verde ou transfers oficiais evitam perrengue.
+- Compras: dólar ou real, mas calcule impostos ao voltar ao Brasil.
+- Tempo de tela? Zero. Tempo de paisagem? Máximo.
+    `,
+    category: "Em Alta",
+    categoryColor: "trending",
+    imageUrl: fozImage,
+    imageAlt: "Pôr do sol sobre a roda-gigante e o rio Iguaçu",
+    readTime: "7 min",
+    views: "48.9K",
+    author: {
+      name: "Bruna Martins",
+      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Bruna",
+    },
+    publishedAt: "2025-02-01T10:00:00Z",
+    updatedAt: "2025-02-01T10:00:00Z",
+    tags: ["foz do iguacu", "triple frontier", "paraguai", "argentina", "brasil", "viagens"],
   },
   {
     id: "2",
