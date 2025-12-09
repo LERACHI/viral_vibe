@@ -17,6 +17,7 @@ import Calculator from "./pages/Calculator";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
+const basename = (import.meta.env.BASE_URL || "/").replace(/\/+$/, "");
 
 const ScrollToHash = () => {
   const location = useLocation();
@@ -45,7 +46,7 @@ const App = () => (
         {/* Anchor targets for hash navigation back to top/sections */}
         <div id="top" className="sr-only" aria-hidden="true" />
         <div id="topo" className="sr-only" aria-hidden="true" />
-        <BrowserRouter>
+        <BrowserRouter basename={basename || "/"}>
           <ScrollToHash />
           <Routes>
             <Route path="/" element={<Index />} />
