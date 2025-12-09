@@ -5,6 +5,12 @@ import budgetTravel from "@/assets/budget-travel.jpg";
 import lugaresAbandonados from "@/assets/lugares-abandonados.jpg";
 import salvadorFesta from "@/assets/salvador-festa.jpg";
 import aviaoMitos from "@/assets/aviao-mitos.jpg";
+import maragogiImage from "@/assets/maragogi.jpeg";
+import portoGalinhas from "@/assets/porto_galinhas.jpeg";
+import serraCipo from "@/assets/serra_cipo.jpeg";
+import ouroPreto from "@/assets/ouro_preto.jpeg";
+import curitiba from "@/assets/curitiba.jpeg";
+import jeriImage from "@/assets/jeri.jpeg";
 
 export interface Article {
   id: string;
@@ -555,7 +561,7 @@ Organizamos 20 destinos brasileiros por faixa de orcamento e foco de viagem. Com
     `,
     category: "Viagens",
     categoryColor: "travel",
-    imageUrl: nordesteBeach,
+    imageUrl: portoGalinhas,
     imageAlt: "Piscinas naturais e mar azul em Porto de Galinhas",
     readTime: "6 min",
     views: "12.4K",
@@ -598,7 +604,7 @@ Organizamos 20 destinos brasileiros por faixa de orcamento e foco de viagem. Com
     `,
     category: "Viagens",
     categoryColor: "travel",
-    imageUrl: nordesteBeach,
+    imageUrl: maragogiImage,
     imageAlt: "Água cristalina e jangadas em Maragogi",
     readTime: "6 min",
     views: "9.8K",
@@ -640,7 +646,7 @@ Organizamos 20 destinos brasileiros por faixa de orcamento e foco de viagem. Com
     `,
     category: "Viagens",
     categoryColor: "travel",
-    imageUrl: lugaresAbandonados,
+    imageUrl: serraCipo,
     imageAlt: "Cachoeira em meio a montanhas na Serra do Cipo",
     readTime: "6 min",
     views: "8.1K",
@@ -681,7 +687,7 @@ Organizamos 20 destinos brasileiros por faixa de orcamento e foco de viagem. Com
     `,
     category: "Viagens",
     categoryColor: "travel",
-    imageUrl: lugaresAbandonados,
+    imageUrl: ouroPreto,
     imageAlt: "Vista de igrejas históricas em Ouro Preto",
     readTime: "6 min",
     views: "7.4K",
@@ -722,7 +728,7 @@ Organizamos 20 destinos brasileiros por faixa de orcamento e foco de viagem. Com
     `,
     category: "Viagens",
     categoryColor: "travel",
-    imageUrl: lugaresAbandonados,
+    imageUrl: curitiba,
     imageAlt: "Parque e arquitetura moderna em Curitiba",
     readTime: "6 min",
     views: "6.9K",
@@ -765,8 +771,8 @@ Organizamos 20 destinos brasileiros por faixa de orcamento e foco de viagem. Com
     `,
     category: "Curiosidades",
     categoryColor: "curiosity",
-    imageUrl: nordesteBeach,
-    imageAlt: "Dunas e mar azul em Jericoacoara",
+    imageUrl: jeriImage,
+    imageAlt: "Pôr do sol sobre dunas e lagoa em Jericoacoara",
     readTime: "5 min",
     views: "5.7K",
     author: {
